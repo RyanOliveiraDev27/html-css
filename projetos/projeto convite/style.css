@@ -1,0 +1,175 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+    color: purple; 
+    margin-bottom: 2px;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h2 {
+    text-align: center;
+    font-size: 60px;
+    color: purple;
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    margin-top: 1px;
+    
+}
+
+.container {
+    background-image: url(imagens/nuvem.png);
+    width: 700px;
+    height: 500px;
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+#convite{
+    background-image:url(imagens/fundo.jpg);
+    width: 1000px;
+    height: 1400px;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    position: relative;
+    
+}
+
+body {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+#neve {
+    font-family: "Merienda", cursive;
+    font-optical-sizing: auto;
+    background-color: purple;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    width: 70%;
+    padding: 25px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+ }
+
+ #data{
+        margin-right: 35px;
+}
+
+ #local{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    margin-left: 35px;
+}
+
+.info {
+    display: inline-block;
+    text-shadow: 2px 2px 4px black;
+    width: 300px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: purple;
+    font-size: 65px;
+    height: 200px;
+    text-align: center;
+
+    
+}
+
+#dataelocal {
+        display: flex;
+        justify-content: center;
+}
+
+#divider {
+    width: 10px;
+    height: 200px;
+    background-color: purple;
+    margin-right: 10px;
+}
+
+
+#espero{
+    color: White;
+    font-size: 60px;
+    text-shadow: 2px 2px 4px black;
+    position:fixed ;
+    bottom:350px;
+}
+
+#elsa{
+    background-image: url(imagens/elsa.png);
+    width: 700px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: contain;
+    padding: 0px 0px 0px 0px;
+    margin: 0px;
+    position: absolute;
+    right: -65px;
+    bottom: 1px;
+    
+}
+
+#alce{
+    background-image: url(imagens/sven.png);
+    width: 700px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: contain;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    left:-8px;
+    
+ }
+
+ #olaf{
+    background-image: url(imagens/Olaf.png);
+    width: 456px;
+    height: 446px;
+    background-repeat: no-repeat;
+    background-position: center left;
+    background-size: contain;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    top: -21px;
+    left: -42px;
+    transform: rotate(15deg);
+ }
+
+ #imagens{
+    display: flex;
+ }
+
+
+
+

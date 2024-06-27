@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brabão</title>
+</head>
+<body>
+    <!-- esse botão faz isso -->
+    <button onclick="changecolor()">Putaria</button> 
+    <div id="quadrado" style="width: 500px;height: 500px;background:red ;">
+        
+    </div>
+<script>
+let btn= document.querySelectorAll("button");
+let square= document.getElementById("quadrado");
+function changecolor(){
+    console.log(square);
+    // square.style.background=="red" ?square.style.background="blue":square.style.background="red";
+    if(square.style.background=="red"){
+        square.style.background="blue"
+    }else{
+        square.style.background="red"
+    }
+}
+</script>
+</body>
+</html>

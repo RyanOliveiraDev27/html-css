@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Imagens que se adaptam</title>
+</head>
+<body><h1>Imagens que se adaptam</h1>
+    <p>Imagens para todos os tipos de dispositivos</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="img/img-pqn.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="img/img-mda.png" type="image/png">
+        <img src="img/img-grd.png" alt="Imagem flexível">
+    </picture>
+    <p>Vamos aprender a reproduzir um audio</p>
+    <audio src="midia/toguro.mp3" controls loop ></audio>
+   
+    <div>
+        <audio preload="metadata" controls loop>
+            <source src="midia/brazil-zil.mp3" type="audio/mpeg">
+            <source src="midia/brazil-zil.ogg" type="audio/ogg">
+            <source src="midia/brazil-zil.wav" type="audio/wav">
+        </audio>
+    </div>
+    <p>Infelizmente o seu navegador não consegue reproduzir audio <a href="midia/toguro.mp3" download="Audio MP3" type="application/mp3">Clique aqui para fazer o download do arquivo MP3.</a></p>
+
+    <div>
+        <audio src="midia/jinglebell.mp3" controls loop></audio>
+    </div>´
+
+    <div>
+        <audio src="midia/probleminha.mp3" controls loop></audio>
+    </div>
+    <a href="midia/! §1Spop2014Edit.rar" download="TXT" type="application/zip">Textura teste
+    </a>
+
+    <div><a href="pagina2.html" target="_blank" rel="external">Página de teste</a></div>
+
+
+</body>
+</html>
