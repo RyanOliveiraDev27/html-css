@@ -69,7 +69,6 @@
  }
 
  section.imagem {
-    background-image:url();
     background-attachment: fixed;
     background-color: rgb(255, 0, 0);
     color: white;
